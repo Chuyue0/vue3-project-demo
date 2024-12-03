@@ -1,0 +1,21 @@
+// 基础色调
+$primary-color: #3998ff;
+$color-999: #999;
+
+// 混合器 @mixin -> @include 
+@mixin flex($justify: center, $align: center, $direction: row, $wrap: no-wrap){
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+*{
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+  margin: 0;
+  padding: 0;
+}

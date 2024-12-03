@@ -1,0 +1,19 @@
+{
+  "files": [], // 文件路径
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ],
+  "compilerOptions": {
+    // 其他编译选项
+    "module": "ESNext", // ES2022=ES13，ESNext指代当前和未来ECMAScript版本的集合
+    "moduleResolution": "node",
+  },
+}
